@@ -1,0 +1,49 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+a.test {
+  font-weight: bold;  
+} 
+
+.button1 {
+  background-color: #e7e7e7; color: black;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2 {
+  background-color: #e7e7e7; color: black;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button3 {
+  background-color: #e7e7e7; color: black;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+

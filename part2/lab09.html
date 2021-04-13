@@ -1,0 +1,45 @@
+<html>
+<head>
+		<style> 
+		a.test {
+			font-weight: bold;  
+		} 
+		</style>
+		
+    <meta charset="utf-8">
+    <title>jQuery Demo</title>
+	
+</head>
+
+<body>
+
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+ 
+    window.onload = function() { // This will let the page load before interaction is allowed.
+ 
+		alert( "welcome" ); // This will display a welcome message
+		
+			$( document ).ready(function() {
+			
+				$( "a" ).addClass( "test" ); // Adding html class for bolding link element 'a'
+
+				$( "a" ).click(function( event ) {
+				alert( "The link will no longer take you to jquery.com" );
+				event.preventDefault(); // This prevents the link from opening
+			 
+				$( this ).hide( "slow" ); // This will hide the link after it is pressed
+				
+				$( "a" ).removeClass( "test" ); // Removing html class for bolding link element 'a' at the end.
+				
+				});
+						 
+			});
+	 
+	};
+ 
+    </script>
+</body>
+
+</html>
